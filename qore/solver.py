@@ -3,7 +3,7 @@ import numpy as np
 
 from qiskit.utils import QuantumInstance
 from qiskit.providers import Backend, BaseBackend
-from qiskit.providers.aer import QasmSimulator
+from qiskit_aer import QasmSimulator
 from qiskit.algorithms import MinimumEigensolver
 from qiskit.opflow import Minus
 
